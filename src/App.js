@@ -1,11 +1,15 @@
+import Navbar from "./components/Navbar";
 
 
 function App() {
+  const titulo = "Rick & Morty"
   return (
-    <div className="App">
-      <h2>Rick and Morty</h2>
-    </div>
-  );
+    <>
+    <Navbar titulo={titulo} />
+    
+    </>
+  )
+ 
 }
 
 export default App;
